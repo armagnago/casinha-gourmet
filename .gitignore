@@ -1,0 +1,68 @@
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Dependências
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Cache
+cache/
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+
+# Backup
+*.bak
+*.backup
+*.tmp
+
+# Arquivos temporários
+.tmp/
+*.temp
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Arquivos sensíveis
+config/database.php
+.env
+secrets.json
+credentials.json
